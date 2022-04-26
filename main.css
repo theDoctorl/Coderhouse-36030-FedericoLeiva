@@ -21,14 +21,24 @@
 .navegacion ul{
     display: flex;
     justify-content:end;
+    
 }
 
 
 .navegacion ul li{
 
         list-style-type: none;
+        text-decoration: none;
         padding: 10px;
+        border: #aa6413 2px solid;
+        background-color: #aa6413;
+        transition: .3s;
 
+}
+
+.navegacion li:hover {
+
+        height: 20px;
 
 }
 
