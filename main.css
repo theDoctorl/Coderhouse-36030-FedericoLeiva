@@ -82,11 +82,12 @@
 
 .redes ul{
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 
 }
 
 .redes ul li{
 
     list-style-type: none;
+    justify-content: space-between;
 }
