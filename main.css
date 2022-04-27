@@ -1,7 +1,13 @@
+body{
+    background: url(./Multimedia/establo-fondo3.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+
 .home-header{
     display: grid;
         grid-template-areas: "header nav";
-        background-color: #efefef;
+        color: #C24E00;
 
 }
 
@@ -10,12 +16,12 @@
 .titulo{
     grid-area: "header";
     text-align: end;
-
+    color: #C24E00;
 }
 
 .navegacion{
     grid-area: "nav";
-
+    
 }
 
 .navegacion ul{
@@ -30,8 +36,9 @@
         list-style-type: none;
         text-decoration: none;
         padding: 10px;
-        border: #aa6413 2px solid;
-        background-color: #aa6413;
+        border: #C24E00 2px solid;
+        background-color: #C24E00;
+        height: 15px;
         transition: .3s;
 
 }
@@ -39,7 +46,8 @@
 .navegacion li:hover {
 
         height: 20px;
-
+        background-color: #efefef;
+        
 }
 
 
@@ -47,46 +55,50 @@
 .main{
     display: flex;
     justify-content: space-between;
-    background-color: #efefef;
+    
 }
 
 .main div h3{
         text-align: center;
         border: 2px solid black;
         margin: 5px;
-
+        color: #C24E00;
 }
 
 .main div{
         border: 2px solid black;
         padding: 10px;
+
 }
 
 .title{
     text-align: center;
     border: 2px solid black;
     margin: 10px 20px 10px 20px;
+    color: #C24E00;
 }
 
 .parrafo{
         text-align: center;
         border: 2px solid black;
         margin: 30px 50px 30px 50px;
+        color: #C24E00;
 }
 
+.ropa img{
+    height: 350px;
+    transition: .3s;
+}
 
-
-
-
-
-
-
+.ropa img:hover{
+        height: 400px;
+}
 
 
 .footer{
     display: flex;
     justify-content: space-between;
-    background-color: #efefef;
+    color: #C24E00;
 }
 
 
